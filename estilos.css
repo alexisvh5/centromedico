@@ -69,17 +69,19 @@ margin: auto;
  /*---section especialidades----*/
 
  .especialidades {
-    background-color: rgb(81, 129, 173);
+    
     float: right;
     width: 50%;
 height: 700px;
     text-align: right;
-    padding: 3rem;}
+    padding: 3rem;
+    background-image: linear-gradient(green, blue);}
 
     .especialidades img{
 
         height: 30%;
         width: 80%;
+        transform: skew(10deg,5deg);
         
 
     }
