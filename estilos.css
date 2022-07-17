@@ -1,0 +1,180 @@
+* {margin: 0%;
+padding: 0%;
+box-sizing: border-box;}
+
+
+/*---------HEADER--------*/
+
+header{
+    background-image: url(./centromedico/stock-vector-doctor-icon-glyph-design.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 40rem;}
+
+
+.header__titulo { text-align: center;
+
+background-color: rgb(96, 192, 192);
+
+}
+
+/*---- navbar-------*/
+
+.header__titulo a
+{
+    text-decoration: none;
+    color: rgb(9, 94, 75);
+}
+
+.header__navbar { 
+    padding: 20px;
+    margin:20px;
+    position: sticky;
+    top: 0%;
+
+}
+
+.header__navbar ul {text-align: center;
+}
+
+
+.header__navbar li { display: inline-block;
+}
+
+.header__navbar a { text-decoration: none;
+text-transform: uppercase;
+color: rgb(18, 121, 18);
+background-color: rgb(96, 192, 192);
+padding: 0.5rem;
+margin: auto;
+
+}
+
+
+
+/*--------section consultorios----*/
+
+.consultorios {
+
+    text-align: :left;
+    float: :left;
+    width: 50%;
+    height: 700px;
+    background-image: url(./centromedico/salud.gif);
+    background-size: cover;
+}
+
+
+ /*---section especialidades----*/
+
+ .especialidades {
+    background-color: rgb(81, 129, 173);
+    float: right;
+    width: 50%;
+height: 700px;
+    text-align: right;
+    padding: 3rem;}
+
+    .especialidades img{
+
+        height: 30%;
+        width: 80%;
+        
+
+    }
+    .especialidades iframe {
+        height: 45%;
+    }
+
+
+
+
+/*----footer----*/
+.footer {
+    background-color: rgb(96, 192, 192);
+    height: 300px;
+    display: inline-block;
+    
+    width: 100%;
+}
+footer ul{
+    height: 80%;
+}
+.footer__viñetas iframe{
+height: 100%;
+width: 40%;
+
+}
+
+
+
+.wht
+{
+    position: fixed;
+bottom: 20px;
+z-index: 100;
+   
+}
+
+
+
+
+
+
+/*----quienes somos----*/
+
+.quienes {
+    background-color: rgb(113, 219, 219);
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.quienes__titulo{ 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+text-decoration: underline;
+}
+.quienes__texto {
+    margin-left: 2%;
+}
+
+/*---fundadores---*/
+
+.fundadores {
+    background-color: rgb(113, 219, 219);
+    text-align: left;
+    
+}
+
+.fundadores__titulo {
+    background-color: rgb(113, 219, 219);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+text-decoration: underline;
+text-align: left;
+}
+
+.fundadores__tabla--resaltado{
+    color: blue;
+    font-size: 120%;
+    text-align: left;
+    
+}
+
+.fundadores__tabla td img {
+    width: 40%;}
+
+
+/*---- especialidades----*/
+
+.especialidadesurk__titulo{
+    text-align: left;
+    background-color: rgb(194, 187, 86);
+    text-align: center;
+}
+
+.formulario__datospersonales
+{
+    margin: 3%;
+   width: 200%;
+   height: 200%;
+}
+
