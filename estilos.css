@@ -59,10 +59,22 @@ margin: auto;
 
     text-align: :left;
     float: :left;
-    width: 50%;
+    width: 55%;
     height: 700px;
-    background-image: url(./centromedico/salud.gif);
+    background-image: linear-gradient(green, blue);
     background-size: cover;
+}
+ 
+.fondodirecciones {
+    background-color: rgb(174, 174, 204);
+}
+.imagen831 {
+    width: 100%;
+}
+.consultardireccion{
+    font-size:large;
+    color: rgb(233, 68, 68);
+    font-weight: 1000;
 }
 
 
@@ -86,7 +98,8 @@ height: 700px;
 
     }
     .especialidades iframe {
-        height: 45%;
+        height: 35%;
+
     }
 
 
