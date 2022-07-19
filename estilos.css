@@ -159,6 +159,10 @@ text-decoration: underline;
     text-align: left;
     
 }
+.imagenfunda{
+    height: 20%;
+    width: 20%;
+}
 
 .fundadores__titulo {
     background-color: rgb(113, 219, 219);
