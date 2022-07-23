@@ -9,8 +9,17 @@ header{
     background-image: url(./centromedico/stock-vector-doctor-icon-glyph-design.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    height: 40rem;}
+    background-position:100%;
+    height:auto;
+    display: grid;
+    grid-template-areas:
+    "titulo titulo titulo titulo"
+    "quienes especialidad turnos contacto";
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+}
+
 
 
 .header__titulo { text-align: center;
@@ -26,16 +35,21 @@ background-color: rgb(96, 192, 192);
     text-decoration: none;
     color: rgb(9, 94, 75);
 }
+#titulo{
+grid-area: titulo;
+}
 
 .header__navbar { 
     padding: 20px;
     margin:20px;
     position: sticky;
     top: 0%;
-
+    width: 200%;
 }
 
-.header__navbar ul {text-align: center;
+.header__navbar ul {
+    text-align: center;
+    width: 200%;
 }
 
 
@@ -49,6 +63,18 @@ background-color: rgb(96, 192, 192);
 padding: 0.5rem;
 margin: auto;
 
+}
+#quienes{
+    grid-area: quienes;
+}
+#especialidad {
+    grid-area: especialidad;
+}
+#turnos{
+    grid-area: turnos;
+}
+#contacto{
+    grid-area: contacto;
 }
 
 
@@ -197,3 +223,42 @@ text-align: left;
    height: 200%;
 }
 
+/*----mobile----*/
+
+@media (max-width:739px)
+{
+ 
+.header__navbar{
+    width: auto;
+}
+header{background-image: url(./centromedico/stock-vector-doctor-icon-glyph-design.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:100%;
+    display: grid;
+    grid-template-areas:
+    "titulo titulo"
+    "quienes especialidad "
+    "turnos contacto";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 2fr;
+    align-items: center;
+
+}
+#titulo{
+    grid-area: titulo;
+}
+#quienes{
+    grid-area: quienes;
+}
+#turnos{
+    grid-area: turnos;
+}
+#especialidad{
+    grid-area: especialidad; 
+}
+#contacto{
+    grid-area: contacto;
+}
+
+}
